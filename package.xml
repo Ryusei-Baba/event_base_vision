@@ -1,0 +1,26 @@
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>event_base_vision</name>
+  <version>1.0.0</version>
+  <description>
+    This package provides a node for converting frame-based image topics 
+    into event-based vision representations.
+  </description>
+  <maintainer email="babaryusei.kw@gmail.com">Ryusei Baba</maintainer>
+  <license>BSD</license>
+
+  <!-- Build tool dependencies -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Runtime dependencies -->
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+
+  <!-- Test dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <!-- Optional metadata -->
+  <url type="repository">https://github.com/your-repo/event_base_vision</url>
+  <url type="bugtracker">https://github.com/your-repo/event_base_vision/issues</url>
+</package>
